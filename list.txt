@@ -1,1 +1,14 @@
-https://ncore.pro
+ncore.pro
+themoviedb.org
+api.themoviedb.org
+image.tmdb.org
+thetvdb.com
+api.thetvdb.com
+artworks.thetvdb.com
+imdb.com
+www.imdb.com
+omdbapi.com
+fanart.tv
+assets.fanart.tv
+opensubtitles.org
+api.opensubtitles.org
