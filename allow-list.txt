@@ -12,4 +12,4 @@ fanart.tv
 assets.fanart.tv
 opensubtitles.org
 api.opensubtitles.org
-@@||sina-and-istvan.de^$document
+@@||sina-and-istvan.de^$important
