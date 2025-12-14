@@ -1,29 +1,75 @@
+! =========================
+! Hungarian government-aligned media / propaganda
+! =========================
+
+! --- Core national outlets ---
 ||origo.hu^
-||www.origo.hu^
-
 ||magyarnemzet.hu^
-||www.magyarnemzet.hu^
-
 ||mandiner.hu^
-||www.mandiner.hu^
-
 ||888.hu^
-||www.888.hu^
-
 ||pestisracok.hu^
-||www.pestisracok.hu^
-
 ||metropol.hu^
-||www.metropol.hu^
-
 ||nemzetisport.hu^
-||www.nemzetisport.hu^
-
 ||hirado.hu^
-||www.hirado.hu^
-
 ||mtva.hu^
-||www.mtva.hu^
-
 ||hungarytoday.hu^
-||www.hungarytoday.hu^
+||vg.hu^
+||ripost.hu^
+||bors.hu^
+
+! --- Localized propaganda by area (KESMA regional clones) ---
+||baon.hu^
+||bama.hu^
+||beol.hu^
+||borsonline.hu^
+||delmagyar.hu^
+||duol.hu^
+||feol.hu^
+||haon.hu^
+||heol.hu^
+||kisalfold.hu^
+||kemma.hu^
+||likebalaton.hu^
+||mindmegette.hu^
+||nool.hu^
+||sonline.hu^
+||szoljon.hu^
+||teol.hu^
+||vaol.hu^
+||veol.hu^
+||zaol.hu^
+
+! --- Lifestyle / soft propaganda ---
+||life.hu^
+||femina.hu^
+
+! =========================
+! Regex-based KESMA nukes
+! =========================
+
+! --- KESMA Level 1: regional clone regex ---
+||/(baon|bama|beol|delmagyar|duol|feol|haon|heol|kemma|kisalfold|nool|sonline|szoljon|teol|vaol|veol|zaol)\.hu/^
+
+! --- KESMA Level 2: core brand regex ---
+||/(origo|magyarnemzet|mandiner|metropol|vg|ripost|bors|888|hirado)\.hu/^
+
+! --- MediaWorks infrastructure ---
+||mediaworks.hu^
+||*.mediaworks.hu^
+
+! =========================
+! Social media / Facebook ad suppression
+! =========================
+
+! --- Social ads (tracking & embeds) ---
+||connect.facebook.net^
+||graph.facebook.com^
+||graph-fallback.facebook.com^
+||www.facebook.com/plugins^
+||www.facebook.com/tr^
+||staticxx.facebook.com^
+
+! --- Social ads (media/video delivery) ---
+||video.xx.fbcdn.net^
+||scontent.xx.fbcdn.net^
+||external.xx.fbcdn.net^
