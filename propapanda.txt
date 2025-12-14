@@ -56,19 +56,3 @@
 ! --- MediaWorks infrastructure ---
 ||mediaworks.hu^
 ||*.mediaworks.hu^
-
-! =========================
-! Social media / Facebook ad suppression
-! =========================
-
-! --- Social ads (tracking & embeds) ---
-||connect.facebook.net^
-||graph.facebook.com^
-||graph-fallback.facebook.com^
-||www.facebook.com/plugins^
-||www.facebook.com/tr^
-
-! --- Social ads (media/video delivery) ---
-||video.xx.fbcdn.net^
-||scontent.xx.fbcdn.net^
-||external.xx.fbcdn.net^
