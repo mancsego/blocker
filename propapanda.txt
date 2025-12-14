@@ -67,7 +67,6 @@
 ||graph-fallback.facebook.com^
 ||www.facebook.com/plugins^
 ||www.facebook.com/tr^
-||staticxx.facebook.com^
 
 ! --- Social ads (media/video delivery) ---
 ||video.xx.fbcdn.net^
