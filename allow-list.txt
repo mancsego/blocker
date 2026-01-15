@@ -13,3 +13,4 @@
 @@||opensubtitles.org^$important
 @@||api.opensubtitles.org^$important
 @@||sina-and-istvan.de^$important
+@@||datadoghq.com^$important
